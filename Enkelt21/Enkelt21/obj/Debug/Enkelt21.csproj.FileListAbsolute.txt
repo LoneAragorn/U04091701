@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\bin\Debug\Enkelt21.exe.config
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\bin\Debug\Enkelt21.exe
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\bin\Debug\Enkelt21.pdb
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\obj\Debug\Enkelt21.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\obj\Debug\Enkelt21.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\obj\Debug\Enkelt21.exe
+C:\Users\Admin\Documents\T4\U04091701\Enkelt21\Enkelt21\obj\Debug\Enkelt21.pdb
