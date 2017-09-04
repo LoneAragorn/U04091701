@@ -55,7 +55,7 @@ namespace Enkelt21
                     moreCard = false;
                 }
 
-                
+
                 if (moreCard)
                 {
                     while (!done)
@@ -69,10 +69,29 @@ namespace Enkelt21
                             string[] cardsDrawn = cards[k].Split(' ');
                             poäng = Convert.ToInt32(cardsDrawn[1]);
                             poängSumma += poäng;
-                            Console.WriteLine(" och din poängsumma är "+poängSumma);
-                            done = true;
+                            if (poängSumma > 21)
+                            {
+                                Console.WriteLine(", du förlorade! Du fick mer än 21");
+                                done = true;
+                                moreCard = false;
+                            }
+                            else if (poängSumma == 21)
+                            {
+                                Console.WriteLine(". Grattis du fick 21 och vann!");
+                                Console.ReadLine();
+                                return;
+                            }
+                            else
+                            {
+                                Console.WriteLine(" och din poängsumma är " + poängSumma);
+                                done = true;
+                            }
                         }
                     }
+                }
+                else
+                {
+                    Console.WriteLine("Din poängsumma är "+ poängSumma);
                 }
             }
             
